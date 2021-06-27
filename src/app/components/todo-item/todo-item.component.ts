@@ -9,7 +9,6 @@ import { Todo } from 'src/app/custom-classes/todo';
 export class TodoItemComponent implements OnInit {
 
   @Input() todo: Todo;
-  @Output() createTodo: EventEmitter<Todo> = new EventEmitter();
   constructor() { 
     this.todo = new Todo();
   }
