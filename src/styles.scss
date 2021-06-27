@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Prompt";
+    src: local("Prompt"), url("./assets/fonts/Prompt/Prompt-Regular.ttf") format("truetype");
+}
+*{
+    font-family: "Prompt";
+}

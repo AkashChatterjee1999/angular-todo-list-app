@@ -1,0 +1,7 @@
+<div class="container border py-2" >
+    <h4>{{ todoName }}</h4>
+    <div class="col" *ngFor="let todo of todos">
+        <todo-item [todo]="todo"></todo-item>
+    </div>
+    <button>Add-Todo</button>
+</div>
